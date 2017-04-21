@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "phone", "img": "http://svgshare.com/i/1JF.svg"},
+    {"id": "mail", "img": "http://svgshare.com/i/1Jb.svg"},
+    {"id": "laptop", "img": "http://svgshare.com/i/1Jc.svg"},
+    {"id": "papers", "img": "http://svgshare.com/i/1KF.svg"},
+    {"id": "calendar", "img": "http://svgshare.com/i/1JQ.svg"}
+      ],
+  "links": [
+    {"source": "phone", "target": "mail", "value": 1},
+    {"source": "mail", "target": "laptop", "value": 1},
+    {"source": "laptop", "target": "papers", "value": 1},
+    {"source": "papers", "target": "calendar", "value": 1},
+    {"source": "calendar", "target": "phone", "value": 1}
+    ]
+}

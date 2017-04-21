@@ -1,0 +1,35 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.0;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-opacity: 0.0;
+}
+
+#chart {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+      }
+      
+      .svg-container {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 100%; /* aspect ratio */
+          vertical-align: top;
+          overflow: hidden;
+        }
+        
+        .svg-content-responsive {
+          display: inline-block;
+          position: absolute;
+          top: 10px;
+          left: 0;
+        }
+                
